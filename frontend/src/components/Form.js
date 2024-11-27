@@ -8,7 +8,7 @@ const FormContainer = styled.form`
   align-items: flex-end;
   gap: 10px;
   flex-wrap: wrap;
-  background-color: #fff;
+  background-color: #000; /* Preto */
   padding: 20px;
   box-shadow: 0px 0px 5px #ccc;
   border-radius: 5px;
@@ -25,17 +25,21 @@ const Input = styled.input`
   border: 1px solid #bbb;
   border-radius: 5px;
   height: 40px;
+  background-color: #fff; /* Fundo branco para os inputs */
+  color: #000; /* Texto preto */
 `;
 
-const Label = styled.label``;
+const Label = styled.label`
+  color: #ffcc00; /* Amarelo */
+`;
 
 const Button = styled.button`
   padding: 10px;
   cursor: pointer;
   border-radius: 5px;
   border: none;
-  background-color: #2c73d2;
-  color: white;
+  background-color: #ffcc00; /* Amarelo */
+  color: #000; /* Texto preto */
   height: 42px;
 `;
 
